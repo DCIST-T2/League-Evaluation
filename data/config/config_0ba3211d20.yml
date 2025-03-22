@@ -1,0 +1,120 @@
+agents:
+  attacker_config:
+    attacker_0:
+      capture_radius: 2
+      sensors: &id001
+      - map
+      - agent
+      - neighbor
+      speed: 1
+      start_node_id: 19
+    attacker_1:
+      start_node_id: 53
+    attacker_2:
+      start_node_id: 116
+    attacker_3:
+      start_node_id: 147
+    attacker_4:
+      start_node_id: 78
+    attacker_5:
+      start_node_id: 176
+    attacker_6:
+      start_node_id: 115
+    attacker_7:
+      start_node_id: 192
+    attacker_8:
+      start_node_id: 55
+    attacker_9:
+      start_node_id: 173
+  attacker_global: &id003
+    capture_radius: 2
+    sensors: *id001
+    speed: 1
+  defender_config:
+    defender_0:
+      capture_radius: 1
+      sensors: &id002
+      - map
+      - agent
+      - neighbor
+      speed: 1
+      start_node_id: 31
+    defender_1:
+      start_node_id: 99
+    defender_2:
+      start_node_id: 167
+    defender_3:
+      start_node_id: 171
+    defender_4:
+      start_node_id: 117
+    defender_5:
+      start_node_id: 74
+    defender_6:
+      start_node_id: 175
+    defender_7:
+      start_node_id: 23
+    defender_8:
+      start_node_id: 10
+    defender_9:
+      start_node_id: 199
+  defender_global: &id004
+    capture_radius: 1
+    sensors: *id002
+    speed: 1
+defaults:
+  attacker_global: *id003
+  defender_global: *id004
+environment:
+  graph_name: graph_200_200.pkl
+extra_prameters:
+  CONFIG_ID: 0ba3211d20
+  parameters:
+    attacker:
+      center_node: 12
+      distribution:
+        param:
+        - 7
+        - 3
+        type: normal
+      number: 10
+    defender:
+      center_node: 12
+      distribution:
+        param:
+        - 4
+        - 2
+        type: normal
+      number: 10
+    flag:
+      center_node: 12
+      distribution:
+        param: 2
+        type: uniform
+      number: 3
+  timestamp: 2025-03-19 11:39:10:356
+game:
+  flag:
+    positions:
+    - 188
+    - 36
+    - 156
+    weights: null
+  interaction: Error
+  max_time: Error
+  payoff: Error
+  rule: V1
+  save_log: false
+visualization:
+  colors:
+    attacker_global: red
+    defender_global: blue
+    flag: green
+  draw_node_id: false
+  game_speed: 2
+  sizes:
+    flag_size: 10
+    global_agent_size: 10
+  visualization_engine: PYGAME
+  window_size:
+  - 1980
+  - 1080

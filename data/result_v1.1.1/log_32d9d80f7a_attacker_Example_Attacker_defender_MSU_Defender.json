@@ -1,0 +1,284 @@
+{
+    "metadata": {
+        "attacker_strategy": "Example_Attacker",
+        "defender_strategy": "MSU_Defender",
+        "graph_file": "graph_200_200.pkl",
+        "flag_num": 5,
+        "flag_dist_type": "uniform",
+        "flag_param": 2,
+        "attacker_num": 10,
+        "attacker_dist_type": "normal",
+        "attacker_param": [
+            7,
+            3
+        ],
+        "defender_num": 10,
+        "defender_dist_type": "normal",
+        "defender_param": [
+            4,
+            2
+        ]
+    },
+    "records": [
+        {
+            "time": 0,
+            "agents": {
+                "attacker_1": 96,
+                "attacker_3": 135,
+                "attacker_4": 178,
+                "attacker_5": 150,
+                "attacker_7": 138,
+                "attacker_9": 59,
+                "defender_1": 117,
+                "defender_2": 77,
+                "defender_3": 21,
+                "defender_4": 142,
+                "defender_6": 171,
+                "defender_7": 26,
+                "defender_8": 183
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -0.5,
+            "captures": 1,
+            "tags": 3,
+            "tag_details": [
+                [
+                    "defender_0",
+                    "attacker_0"
+                ],
+                [
+                    "defender_5",
+                    "attacker_2"
+                ],
+                [
+                    "defender_9",
+                    "attacker_6"
+                ]
+            ],
+            "capture_details": [
+                [
+                    "attacker_8",
+                    5
+                ]
+            ]
+        },
+        {
+            "time": 1,
+            "agents": {
+                "attacker_1": 100,
+                "attacker_3": 72,
+                "attacker_4": 179,
+                "attacker_5": 48,
+                "attacker_7": 73,
+                "attacker_9": 65,
+                "defender_1": 116,
+                "defender_2": 65,
+                "defender_3": 118,
+                "defender_4": 27,
+                "defender_6": 19,
+                "defender_7": 28,
+                "defender_8": 32
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -1.0,
+            "captures": 0,
+            "tags": 1,
+            "tag_details": [
+                [
+                    "defender_2",
+                    "attacker_9"
+                ]
+            ],
+            "capture_details": []
+        },
+        {
+            "time": 2,
+            "agents": {
+                "attacker_1": 94,
+                "attacker_3": 62,
+                "attacker_4": 177,
+                "attacker_5": 148,
+                "attacker_7": 62,
+                "defender_1": 95,
+                "defender_3": 142,
+                "defender_4": 10,
+                "defender_6": 77,
+                "defender_7": 12,
+                "defender_8": 14
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -1.0,
+            "captures": 0,
+            "tags": 0,
+            "tag_details": [],
+            "capture_details": []
+        },
+        {
+            "time": 3,
+            "agents": {
+                "attacker_1": 99,
+                "attacker_3": 57,
+                "attacker_4": 113,
+                "attacker_5": 166,
+                "attacker_7": 57,
+                "defender_1": 100,
+                "defender_3": 27,
+                "defender_4": 26,
+                "defender_6": 65,
+                "defender_7": 29,
+                "defender_8": 33
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -1.5,
+            "captures": 0,
+            "tags": 1,
+            "tag_details": [
+                [
+                    "defender_3",
+                    "attacker_1"
+                ]
+            ],
+            "capture_details": []
+        },
+        {
+            "time": 4,
+            "agents": {
+                "attacker_3": 59,
+                "attacker_4": 54,
+                "attacker_5": 167,
+                "attacker_7": 59,
+                "defender_1": 95,
+                "defender_4": 28,
+                "defender_6": 59,
+                "defender_7": 185,
+                "defender_8": 167
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -2.5,
+            "captures": 0,
+            "tags": 2,
+            "tag_details": [
+                [
+                    "defender_6",
+                    "attacker_3"
+                ],
+                [
+                    "defender_8",
+                    "attacker_5"
+                ]
+            ],
+            "capture_details": []
+        },
+        {
+            "time": 5,
+            "agents": {
+                "attacker_4": 112,
+                "attacker_7": 65,
+                "defender_1": 100,
+                "defender_4": 12,
+                "defender_7": 12
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -2.5,
+            "captures": 0,
+            "tags": 0,
+            "tag_details": [],
+            "capture_details": []
+        },
+        {
+            "time": 6,
+            "agents": {
+                "attacker_4": 115,
+                "attacker_7": 77,
+                "defender_1": 95,
+                "defender_4": 5,
+                "defender_7": 5
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -3.0,
+            "captures": 0,
+            "tags": 1,
+            "tag_details": [
+                [
+                    "defender_1",
+                    "attacker_4"
+                ]
+            ],
+            "capture_details": []
+        },
+        {
+            "time": 7,
+            "agents": {
+                "attacker_7": 19,
+                "defender_4": 8,
+                "defender_7": 8
+            },
+            "flag_positions": [
+                36,
+                12,
+                185,
+                5,
+                35
+            ],
+            "payoff": -3.5,
+            "captures": 0,
+            "tags": 1,
+            "tag_details": [
+                [
+                    "defender_4",
+                    "attacker_7"
+                ]
+            ],
+            "capture_details": []
+        },
+        {
+            "summary": true,
+            "payoff": -3.5,
+            "time": 7,
+            "total_captures": 1,
+            "total_tags": 9
+        }
+    ]
+}

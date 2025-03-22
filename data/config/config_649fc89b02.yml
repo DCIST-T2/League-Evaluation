@@ -1,0 +1,102 @@
+agents:
+  attacker_config:
+    attacker_0:
+      capture_radius: 2
+      sensors: &id001
+      - map
+      - agent
+      - neighbor
+      speed: 1
+      start_node_id: 179
+    attacker_1:
+      start_node_id: 173
+    attacker_2:
+      start_node_id: 113
+    attacker_3:
+      start_node_id: 36
+    attacker_4:
+      start_node_id: 106
+  attacker_global: &id003
+    capture_radius: 2
+    sensors: *id001
+    speed: 1
+  defender_config:
+    defender_0:
+      capture_radius: 1
+      sensors: &id002
+      - map
+      - agent
+      - neighbor
+      speed: 1
+      start_node_id: 19
+    defender_1:
+      start_node_id: 13
+    defender_2:
+      start_node_id: 171
+    defender_3:
+      start_node_id: 99
+    defender_4:
+      start_node_id: 175
+  defender_global: &id004
+    capture_radius: 1
+    sensors: *id002
+    speed: 1
+defaults:
+  attacker_global: *id003
+  defender_global: *id004
+environment:
+  graph_name: graph_200_200.pkl
+extra_prameters:
+  CONFIG_ID: 649fc89b02
+  parameters:
+    attacker:
+      center_node: 12
+      distribution:
+        param:
+        - 7
+        - 3
+        type: normal
+      number: 5
+    defender:
+      center_node: 12
+      distribution:
+        param:
+        - 4
+        - 2
+        type: normal
+      number: 5
+    flag:
+      center_node: 12
+      distribution:
+        param: 2
+        type: uniform
+      number: 5
+  timestamp: 2025-03-19 11:39:43:986
+game:
+  flag:
+    positions:
+    - 29
+    - 35
+    - 185
+    - 13
+    - 5
+    weights: null
+  interaction: Error
+  max_time: Error
+  payoff: Error
+  rule: V1
+  save_log: false
+visualization:
+  colors:
+    attacker_global: red
+    defender_global: blue
+    flag: green
+  draw_node_id: false
+  game_speed: 2
+  sizes:
+    flag_size: 10
+    global_agent_size: 10
+  visualization_engine: PYGAME
+  window_size:
+  - 1980
+  - 1080
